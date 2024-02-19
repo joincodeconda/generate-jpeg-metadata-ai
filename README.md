@@ -46,6 +46,8 @@ Ensure you replace `api_token = ""` with your actual API token from PhotoTag.ai.
 2. Navigate to and select the folder containing your AI-generated photos.
 3. The tool will begin processing each photo, fetching metadata from PhotoTag.ai based on the file names, and applying this metadata to the photos.
 
+![Screenshot 2024-02-18 at 8.36.03 PM.png](https://res.cloudinary.com/ddnugojjc/image/upload/v1708306574/Screenshot_2024_02_18_at_8_36_03_PM_b5a7d7f582.png)
+
 ### Understanding the Process
 - The script parses each file name of your AI-generated photos to extract additional context, which it then sends to PhotoTag.ai to generate relevant metadata (titles, descriptions, keywords).
 - Successfully processed photos will be moved to a `ready` subfolder, while any that fail (due to errors or inability to fetch metadata) will be moved to a `failed` subfolder.
